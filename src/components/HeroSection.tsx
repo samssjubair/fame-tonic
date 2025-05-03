@@ -15,7 +15,7 @@ const HeroSection = () => {
                 Want to Turn Social Media Into a Profitable Career?
               </h1>
 
-              <h2 className="font-['Urbanist'] font-bold text-[35px] leading-[100%] tracking-[0%] align-middle text-[#00E7F9] [text-shadow:0px_4px_4px_#FC004E] text-center lg:text-left">
+              <h2 className="font-['Urbanist'] font-bold text-[35px] leading-[100%] tracking-[0%] align-middle text-[#00E7F9] [text-shadow:0px_4px_4px_var(--color-primary)] text-center lg:text-left">
                 Discover your way to success with Fametonic:
               </h2>
             </div>
@@ -50,7 +50,6 @@ const HeroSection = () => {
             </ul>
 
             <div className="space-y-6">
-              {/* Terms and Copyright - Mobile first */}
               <div className="block lg:hidden space-y-4">
                 <p className="font-medium text-xs leading-[100%] tracking-[0%] align-middle text-gray-500 text-center lg:text-left">
                   By clicking &quot;Get Started&quot;, you agree with Terms and
@@ -63,7 +62,7 @@ const HeroSection = () => {
               </div>
 
               <div className="w-full md:w-1/2">
-                <button className="block w-full uppercase h-[40px] px-10 py-2 gap-2.5 rounded-[10px] bg-[#FC004E] shadow-[2px_2px_10px_0px_#00E7F9] text-white font-bold transition-colors duration-200">
+                <button className="block w-full uppercase h-[40px] px-10 py-2 gap-2.5 rounded-[10px] bg-primary shadow-[2px_2px_10px_0px_#00E7F9] text-white font-bold transition-colors duration-200">
                   Get Started <FaChevronRight className="inline-block mb-1 ms-1" />
                 </button>
 
@@ -72,7 +71,6 @@ const HeroSection = () => {
                 </p>
               </div>
 
-              {/* Terms and Copyright - Desktop */}
               <div className="hidden lg:block space-y-4">
                 <p className="font-medium text-xs leading-[100%] tracking-[0%] align-middle text-gray-500 text-center lg:text-left">
                   By clicking &quot;Get Started&quot;, you agree with Terms and
@@ -86,7 +84,6 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Image Section */}
           <div className="w-full lg:w-1/2">
             <div className="relative w-full h-[400px] lg:h-[600px]">
               <Image

@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-figtree);
 }
+
+@theme {
+  --color-primary: #FC004E;
+}

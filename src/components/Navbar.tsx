@@ -18,14 +18,12 @@ const Navbar = () => {
     <nav className="fixed w-full bg-transparent z-50">
       <Container>
         <div className="flex items-center justify-between h-16 relative">
-          {/* Logo - Centered on mobile, left on desktop */}
           <div className="flex-shrink-0 md:flex-shrink-0 md:flex md:items-center mx-auto md:mx-0">
             <Link href="/" className="text-2xl font-bold text-white">
               <Image src={logo} alt="Logo" width={120}/>
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
               <Link
@@ -43,7 +41,6 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Mobile menu button - Right side */}
           <div className="md:hidden absolute right-0">
             <button
               onClick={toggleMenu}
@@ -59,7 +56,6 @@ const Navbar = () => {
         </div>
       </Container>
 
-      {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black bg-opacity-80">
