@@ -1,0 +1,59 @@
+.heading1 {
+  @apply font-urbanist font-bold text-[35px] leading-[100%] tracking-[0%] align-middle text-white;
+}
+
+.heading2 {
+  @apply font-urbanist font-bold text-[35px] leading-[100%] tracking-[0%] align-middle text-[#00E7F9];
+}
+
+.bodyText {
+  @apply font-figtree font-semibold text-base leading-[22px] tracking-[0%] align-middle;
+}
+
+.quizText {
+  @apply font-figtree font-normal text-xs leading-4 tracking-[0%] text-center align-middle;
+}
+
+.footerText {
+  @apply font-figtree font-medium text-xs leading-[100%] tracking-[0%] align-middle text-gray-500;
+}
+
+.ctaButton {
+  @apply w-[313px] h-[40px] px-10 py-2 gap-2.5 rounded-[10px] bg-[#FC004E] shadow-[2px_2px_10px_0px_#00E7F9] text-white font-bold transition-colors duration-200;
+}
+
+.container {
+  @apply min-h-screen;
+}
+
+.contentWrapper {
+  @apply container mx-auto px-4 py-12;
+}
+
+.flexContainer {
+  @apply flex flex-col-reverse lg:flex-row items-center justify-between gap-12;
+}
+
+.textSection {
+  @apply w-full lg:w-1/2 space-y-8;
+}
+
+.imageSection {
+  @apply w-full lg:w-1/2;
+}
+
+.imageContainer {
+  @apply relative w-full h-[400px] lg:h-[600px];
+}
+
+.listItem {
+  @apply flex items-start gap-3;
+}
+
+.emoji {
+  @apply text-2xl;
+}
+
+.buttonContainer {
+  @apply space-y-6;
+} 
