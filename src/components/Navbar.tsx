@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Container from './HOC/Container';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -28,13 +28,13 @@ const Navbar = () => {
             <div className="ml-10 flex items-center space-x-4">
               <Link
                 href="/about"
-                className="font-semibold text-[18px] leading-[100%] tracking-[0%] text-center align-middle text-[#A9A9A9] hover:text-white px-3 py-2 rounded-md"
+                className="nav-item"
               >
                 About Us
               </Link>
               <Link
                 href="/contact"
-                className=" font-semibold text-[18px] leading-[100%] tracking-[0%] text-center align-middle text-[#A9A9A9] hover:text-white px-3 py-2 rounded-md"
+                className="nav-item"
               >
                 Contact
               </Link>

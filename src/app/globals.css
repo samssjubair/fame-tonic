@@ -28,3 +28,19 @@ body {
 @theme {
   --color-primary: #FC004E;
 }
+
+.header-text {
+  @apply font-['Urbanist'] font-bold text-[35px] leading-[100%] tracking-[0%] align-middle
+}
+
+.nav-item {
+  @apply font-semibold text-[18px] leading-[100%] tracking-[0%] text-center align-middle text-[#A9A9A9] hover:text-white px-3 py-2 rounded-md
+}
+
+.feature-item-text {
+  @apply font-semibold text-base leading-[22px] tracking-[0%] align-middle lg:text-left
+}
+
+.credit-text {
+  @apply font-medium text-xs leading-[100%] tracking-[0%] align-middle text-gray-500 text-center lg:text-left
+}

@@ -1,4 +1,4 @@
-export default function FlashSaleHeader() {
+const FlashSaleHeader = () => {
   return (
     <div 
       className="pt-[10px] pr-[20px] pb-[10px] pl-[20px] gap-[10px] flex items-center justify-center text-white md:[background:linear-gradient(90deg,_var(--color-primary)_0%,_#10CBE0_100%)]"
@@ -14,3 +14,4 @@ export default function FlashSaleHeader() {
   );
 }
 
+export default FlashSaleHeader;
