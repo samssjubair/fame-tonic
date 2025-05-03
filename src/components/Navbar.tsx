@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../assets/logo.png';
 import Image from 'next/image';
+import Container from './HOC/Container';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,9 +16,8 @@ const Navbar = () => {
 
   return (
     <nav className="fixed w-full bg-transparent z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         <div className="flex items-center justify-between h-16">
-        
           <div className="flex-shrink-0 md:flex-shrink-0 md:flex md:items-center">
             <Link href="/" className="text-2xl font-bold text-white">
               <Image src={logo} alt="Logo" width={120}/>
@@ -50,15 +50,13 @@ const Navbar = () => {
             >
               {isMenuOpen ? (
                 <FaTimes className="h-6 w-6" />
-                
               ) : (
                 <FaBars className="h-6 w-6" />
-         
               )}
             </button>
           </div>
         </div>
-      </div>
+      </Container>
 
       {/* Mobile menu */}
       {isMenuOpen && (

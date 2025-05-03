@@ -7,7 +7,7 @@ export default function FlashSaleHeader() {
         background: 'linear-gradient(89.63deg, #FC004E -2.16%, #10CBE0 115.27%)'
       }}
     >
-      <p className="font-['Figtree'] font-extrabold text-[16px] md:text-[22px] leading-[100%] tracking-[0%] align-middle text-center">
+      <p className="font-extrabold text-[16px] md:text-[22px] leading-[100%] tracking-[0%] align-middle text-center">
         🚀 <span style={{ color: '#00E7F9' }}>Fresh Beginnings Sale:</span> Extra 25% OFF, Limited Spots - start your journey today!
       </p>
     </div>
